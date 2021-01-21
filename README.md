@@ -47,7 +47,7 @@ The procedure to obtain functional a copy of the project on your local machine s
 which creates the *jar* file at *target/chatroom-starter-0.0.1-SNAPSHOT.jar*:
 ![jarfile](/ScreenShots/jarfile.png)
 Just run the *jar* file on your terminal shell window by typing `java -jar chatroom-starter-0.0.1-SNAPSHOT.jar`. Please, cd to the *target* directory first:
-![executejar](/ScreenShots/executejar.png)
+
 * Thirdly, the application can be manually tested at *http://localhost:8080/*:
     * The user is initially shown the login page:
     ![screen1](/ScreenShots/screen1.png)
@@ -61,10 +61,7 @@ Just run the *jar* file on your terminal shell window by typing `java -jar chatr
     * Make sure the application is running. For instance, as described above, by typing `java -jar chatroom-starter-0.0.1-SNAPSHOT.jar` at the target folder.  
     * Make sure you have the latest version of the Chrome browser (version 76), as these test are web driver ones (under the existing framework JUnit).
     * Open a new terminal shell window and type, for instance, `mvn test`. Please, cd to the root directory of the project first, as this action requires a project to be executed, and a POM file must be present.
-    * This is the result that you would obtain. All four tests pass:
-    ![testsresult](/ScreenShots/testsresult.png)
-    ![testsresult2](/ScreenShots/testsresult2.png)
-    ![testsresult3](/ScreenShots/testsresult3.png)
+
 ## Contributing
 
 This repository contains all the work that makes up the project. Individuals and I myself are encouraged to further improve this project. As a result, I will be more than happy to consider any pull requests.
