@@ -1,0 +1,16 @@
+# To review how to locate Thymeleaf template from spring boot see
+# https://stackoverflow.com/questions/41318005/how-to-locate-thymeleaf-template-from-spring-boot
+# https://hellokoding.com/spring-boot-hello-world-example-with-thymeleaf/
+spring:
+  thymeleaf:
+    cache: false # Disable template caching
+    check-template: true # Check that the template exists before rendering it
+    check-template-location: true # Check that the templates location exists
+    enabled: true # Enable Thymeleaf view resolution for Web frameworks
+    encoding: UTF-8 # Template files encoding
+    mode: LEGACYHTML5 # Template mode to be applied to templates
+    prefix: classpath:/templates/ # Prefix that gets prepended to view names when building a URL
+    suffix: .html # Suffix that gets appended to view names when building a URL
+    template-loader-path: classpath:/templates/
+    servlet:
+      content-type: text/html # Content-Type value written to HTTP responses
